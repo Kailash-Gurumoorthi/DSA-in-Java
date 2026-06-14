@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 public class leetcodeproblem26 {
     public static void main(String[] args) {
         int[] nums = {1, 2, 2 ,3};
