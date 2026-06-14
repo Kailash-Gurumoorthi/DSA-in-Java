@@ -14,6 +14,7 @@ class leetcode121 {
         }
         return maxProfit; */
 
+      
         int buy=0,sell=0,profit=0;
         while(sell<prices.length){
             if(prices[buy]<prices[sell]){
