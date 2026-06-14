@@ -5,6 +5,7 @@ public class leetcode78 {
         int[] nums={1,2,3};
         System.out.print(subsets(nums));
     }
+  
     public static List<List<Integer>> subsets(int[] nums){
         List<List<Integer>> list = new ArrayList<>();
         list.add(new ArrayList<>());
@@ -18,4 +19,5 @@ public class leetcode78 {
         }
         return list;
     }
+  
 }
