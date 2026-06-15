@@ -20,6 +20,7 @@ public class leetcode283 {
        System.out.print(Arrays.toString(nums));*/
 
         // move all non zeros nums forward
+      
         int i=0;
         for(int j=0;j<nums.length;j++){
             if(nums[j]!=0){

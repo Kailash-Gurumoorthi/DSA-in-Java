@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class leetcode977 {
     public static void main(String[] args){
         int[] nums={-4,-1,0,3,10};

@@ -31,6 +31,7 @@ public class leetcode125 {
         return true;
     }
 
+  
         // by ai runs at O(n) and O(1)
        /*public static boolean isPalindromeOptimal(String s) {
     int i = 0;

@@ -15,6 +15,7 @@ public class leetcode3 {
             if (carry[ch] >= i) {
                 i = carry[ch] + 1;
             }
+            
             carry[ch] = j;
             int length=j-i+1;
             count = Math.max(count,length);
