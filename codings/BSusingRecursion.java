@@ -1,8 +1,8 @@
 public class BSusingRecursion {
     public static void main(String[] args){
         int[] arr ={2,4,5,6,7,8,93,453,5345};
-        int t=7;//s=0,e =arr.length-1;
-        System.out.print(ans(arr,t,0,arr.length-1));
+        int t=5345,s=0,e =arr.length-1;
+        System.out.print(ans(arr,t,s,e));
     }
     public static int ans(int[] arr,int t,int s,int e){
         int m= s+ (e-s)/2;

@@ -2,7 +2,7 @@ package Searching;
 
 public class seriessearch {
     public static void main(String[] args){
-        int[] arr={1, 1, 2};
+        int[] arr={1, 1, 2, 2};
         System.out.print(search(arr));
     }
     public static int search(int[] arr){

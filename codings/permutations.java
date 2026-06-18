@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class permutations{
     public static void main(String[] args){
-        int[] nums = {1, 2, 3, 4};
+        int[] nums = {1, 2, 3};
         System.out.print(permute(nums));
     }
     static List<List<Integer>> permute(int[] nums){

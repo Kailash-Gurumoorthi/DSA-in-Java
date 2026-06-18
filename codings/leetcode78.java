@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class leetcode78 {
     public static void main(String[] args){
-        int[] nums={1,2,3};
+        int[] nums={1,2};
         System.out.print(subsets(nums));
     }
   

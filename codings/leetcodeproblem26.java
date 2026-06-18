@@ -7,7 +7,9 @@ public class leetcodeproblem26 {
     }
     public static int nondupli(int[] nums){
         if(nums == null || nums.length == 0) return 0;
-        /* int i=0,j=1;
+        /*
+        // using while loop
+         int i=0,j=1;
         while(j<nums.length){
             if(nums[i]!=nums[j]){
                 i++;
@@ -17,6 +19,9 @@ public class leetcodeproblem26 {
         }
         System.out.println(Arrays.toString(nums));
         return i+1; */
+
+        // using for loop
+
         int i=1;
         for(int j=1;j<nums.length;j++){
             if(nums[j-1]!=nums[i]){

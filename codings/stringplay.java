@@ -4,11 +4,11 @@ class stringplay{
 
         String word = "abc";
 
-        //check(word);
+        check(word);
         //remove(word,'a');
         //substring(word);
 
-        subsequence(word,"");
+       // subsequence(word,"");
 
     }
     //check palindrome or not

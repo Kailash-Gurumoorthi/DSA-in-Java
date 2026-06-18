@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class leetcode238 {
         public static void main(String[] args){
-            int[] nums = {1,2,3,4};
+            int[] nums = {5,5,5,5};
             System.out.print(Arrays.toString(productExceptSelf(nums)));
     }
     public static int[] productExceptSelf(int[] nums) {
@@ -19,4 +19,3 @@ public class leetcode238 {
         return ans;
     }
 }
-l
