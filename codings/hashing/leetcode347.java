@@ -1,4 +1,4 @@
-//347. Top K Frequent Elements
+package hashing;//347. Top K Frequent Elements
 //Example 1:
 //Input: nums = [1,1,1,2,2,3], k = 2
 //Output: [1,2]
@@ -10,6 +10,7 @@
 //Output: [1,2]
 
 import java.util.*;
+
 public class leetcode347 {
     public static void main(String[] args) {
         int[] nums = {1,2,1,2,1,3,3,1,3,3};
