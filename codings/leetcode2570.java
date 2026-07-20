@@ -12,7 +12,7 @@ public class leetcode2570 {
             if(nums1[i][0] == nums2[j][0]){
                 list.add(new int[]{nums1[i][0],nums1[i][1]+nums2[j][1]});
                 i++;
-                j++;h
+                j++;
             }else if(nums1[i][0] < nums2[j][0]){
                 list.add(new int[]{nums1[i][0],nums1[i][1]});
                 i++;
